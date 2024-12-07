@@ -1,0 +1,5 @@
+/////SIMULATION_SETUP////// 
+FinalTime    2600.0
+SizeX    200.0
+SizeY    200.0
+SizeZ    100.0

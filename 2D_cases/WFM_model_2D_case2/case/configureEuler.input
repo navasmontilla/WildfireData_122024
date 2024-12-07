@@ -1,0 +1,19 @@
+/////SIMULATION_SETUP//////
+DumpTime		10000.0
+CFL			0.5
+Order			5
+////////MESH_SETUP/////////
+xcells			50
+ycells			1
+zcells			75
+///////BOUNDARY_COND///////
+Face_1(-y)			1
+Face_2(+x)			4
+Face_3(+y)			1
+Face_4(-x)			4
+Face_5(-z)			4
+Face_6(+z)			4
+///////LINEAR_TRANSPORT///////(if_applicable)
+u_x                     1.0
+u_y                     1.0
+u_z                     1.0

@@ -1,0 +1,24 @@
+/////SIMULATION_SETUP////// 
+DumpTime    200.0
+CFL    0.4
+Order    7
+////////MESH_SETUP/////////
+xcells    400
+ycells    400
+///////BOUNDARY_COND///////
+Face_1    3
+Face_2    3
+Face_3    3
+Face_4    3
+/////////PARAMETERS////////
+u_x(m/s)    0.25
+u_y(m/s)    0.25
+rho(kg/m^3)    40.0 
+C(kJ/(kg·K))   1.0 
+H(kJ/kgFuel)   4000.0
+K(kW/(m·K))    0.0001
+h(kW/(m^3·K))    0.05
+Tinf(K)    300.0
+Tpc(K)    400
+RH    0.1
+L(m)    1.0
